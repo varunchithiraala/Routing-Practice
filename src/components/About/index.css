@@ -1,0 +1,40 @@
+/* Write your CSS code here */
+.about-container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image {
+  height: 150px;
+  width: 150px;
+}
+
+@media screen and (min-width: 992px) {
+  .about-image {
+      height: 200px;
+      width: 200px;
+  }
+}
+
+.about-heading {
+  color: #6d396b;
+  font-family: "Roboto";
+  font-size: 22px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 576px) {
+  .about-heading {
+    font-size: 44px;
+  }
+}
+
+.about-description {
+  text-align: center;
+  color: #555555;
+  font-family: "Roboto";
+  font-size: 20px;
+}

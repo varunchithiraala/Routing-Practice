@@ -1,0 +1,74 @@
+/* Write your CSS code here */
+.nav-bar-header-container {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+  .nav-bar-header-container {
+    padding: 32px;
+  }
+}
+
+.nav-bar-logo-title-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar-logo-image {
+  height: 26px;
+  width: 26px;
+  margin-right: 8px;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-bar-logo-image {
+      height: 42px;
+      width: 42px;
+  }
+}
+
+.nav-bar-title {
+  color: #12022f;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-bar-title {
+      font-size: 26px;
+  }
+}
+
+.nav-bar-items-container {
+  display: flex;
+  padding-left: 0;
+}
+
+.nav-bar-link-item {
+  list-style-type: none;
+}
+
+.nav-bar-route-link {
+  color: #12022f;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 16px;
+}
+
+@media screen and (min-width: 992px) {
+  .nav-bar-route-link {
+      font-size: 26px;
+      margin-left: 22px;
+  }
+}
